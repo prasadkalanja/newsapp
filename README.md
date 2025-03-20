@@ -95,10 +95,10 @@ services:
 ## Build and Run the Docker Container
 1. Build the Docker Image: Open a terminal in the root directory of your project and run:
 
-	`docker build -t news_app .`
+	`docker build -t newsapp .`
 
 2. Run the Docker Container: To start a container from your image, run:
-	`docker run -p 3000:3000 news_app`
+	`docker run -p 3000:3000 newsapp`
 
 	If using Docker Compose, you can build and run the container with:
 	`docker-compose up --build`
@@ -106,8 +106,8 @@ services:
 ### Project Setup and Dockerization
 1. Clone the Repository:
 
-	git clone https://github.com/rakshithpnaik/news_app.git
-	cd news_app
+	git clone https://github.com/prasadkalanja/newsapp.git
+	cd newsapp
 
 2. Install Docker:
 
@@ -115,11 +115,11 @@ services:
 
 3. Build the Docker Image:
 
-	`docker build -t news_app .`
+	`docker build -t newsapp .`
 
 4. Run the Docker Container:
 
-	`docker run -p 3000:3000 news_app`
+	`docker run -p 3000:3000 newsapp`
 
 	Alternatively, if you are using Docker Compose, run:
 
