@@ -1,0 +1,110 @@
+.navbar {
+  background-color: #baac2a !important;
+  /* padding: 20px !important; */
+  font-size: 18px !important;
+}
+
+.nav-brand {
+  font-size: 23px !important;
+  margin-left: 10px !important;
+  font-weight: 700 !important;
+}
+
+.nav {
+  margin-left: 5px !important;
+}
+
+.nav-item {
+  margin-left: 10px !important;
+  transition: 0.3s ease !important;
+}
+
+.nav-item:hover {
+  transform: translateY(-3px) !important;
+  text-decoration: underline !important;
+}
+
+.close-btn {
+  color: #ffffff80 !important;
+  cursor: pointer !important;
+  margin-inline-end: 6px !important;
+}
+
+.search-form {
+  display: flex !important;
+  align-items: center !important;
+  margin: 10px 0;
+}
+
+.form-input {
+  border-radius: 0 !important;
+  border-top-left-radius: 13px !important;
+  border-bottom-left-radius: 13px !important;
+  padding: 11px !important;
+  margin-left: 13px !important;
+  /* margin-right: -9px !important; */
+  font-size: 18px !important;
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 0 !important;
+  outline: 0 !important;
+  margin-top: 0 !important;
+}
+
+.form-input::placeholder {
+  color: gray !important;
+  opacity: 1;
+}
+
+.form-input:focus {
+  box-shadow: none !important;
+}
+
+.logo {
+  width: 45px !important;
+}
+
+.search-btn {
+  background-color: white !important;
+  color: black !important;
+  font-weight: 700 !important;
+  border-radius: 0 !important;
+  border-top-right-radius: 13px !important;
+  border-bottom-right-radius: 13px !important;
+  padding: 10px 15px !important;
+  border-color: #323762b7 !important;
+  font-size: 18px !important;
+  margin-right: 10px !important;
+  margin-top: 0 !important;
+
+}
+.search-btn::placeholder {
+  color: black !important;
+  opacity: 1; /* Firefox */
+}
+.search-btn:hover {
+  background-color:wheat !important;
+  transition: 0.5s ease !important;
+}
+
+.search-btn:disabled {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.date-picker {
+  display: flex;
+  margin-left: 13px;
+}
+.date-picker input {
+  border-radius: 13px !important;
+  padding: 11px !important;
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 0 !important;
+  outline: 0 !important;
+  width: 150px;
+}
+
+.nav-link.active {
+  color: #fff;
+}
